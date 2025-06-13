@@ -1,3 +1,32 @@
+# Freelancer Pilot 🧑‍💻📊
+
+A React-based dashboard for freelancers to manage clients, tasks, pricing, and schedules.  
+This project simulates a productivity tool with a focus on clean UI and state management.
+
+## ✨ Features
+- 🔐 Login page with simple authentication
+- 📁 Sidebar and layout system
+- 📊 Dashboard with analytics and metrics
+- 🧾 Client management (add/edit clients, rates, status)
+- 📅 Task & schedule views
+- 🎨 Responsive design using pure CSS
+
+## 🧰 Tech Stack
+- React (Create React App)
+- JavaScript (ES6+)
+- React Router
+- CSS3 Modules
+- useState / useEffect for state management
+
+## 🚀 Run locally
+
+--bash
+npm install
+npm start
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
