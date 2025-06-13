@@ -1,0 +1,59 @@
+.analytics-dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cards-overview {
+    display: flex;
+    gap: 20px;
+}
+
+.stat-card {
+    background: #fff;
+    padding: 20px 24px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+    flex: 1;
+}
+
+.stat-card h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #444;
+}
+
+.stat-card p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0 4px;
+}
+
+.stat-card span {
+    font-size: 14px;
+}
+
+.green {
+    color: #2ecc71;
+}
+
+.blue {
+    color: #3498db;
+}
+
+.purple {
+    color: #8e44ad;
+}
+
+.charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.chart-box {
+    background: #fff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}

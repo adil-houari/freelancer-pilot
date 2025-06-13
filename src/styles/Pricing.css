@@ -1,0 +1,161 @@
+.pricing-page {
+    padding: 40px;
+    color: #1f2d3d;
+    font-family: 'Inter', sans-serif;
+}
+
+.pricing-intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pricing-intro h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.pricing-intro p {
+    color: #666;
+    font-size: 16px;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 24px;
+}
+
+.pricing-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pricing-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.pricing-card.highlight {
+    border: 2px solid #6c63ff;
+}
+
+.badge {
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    background-color: #6c63ff;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+.pricing-card h2 {
+    margin-bottom: 8px;
+    font-size: 22px;
+    color: #1f2d3d;
+}
+
+.price {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #00c9a7;
+}
+
+.description {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.features li {
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 14px;
+}
+
+.choose-btn {
+    background-color: #6c63ff;
+    color: #fff;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.2s;
+    width: 100%;
+}
+
+.choose-btn:hover {
+    background-color: #5146d8;
+}
+
+/* === Toggle Pricing === */
+.toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.toggle span {
+    cursor: pointer;
+    font-weight: 500;
+    color: #999;
+    transition: color 0.2s;
+}
+
+.toggle span.active {
+    color: #333;
+}
+
+.toggle-switch {
+    width: 50px;
+    height: 26px;
+    background: #e0e0e0;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.switch-dot {
+    width: 22px;
+    height: 22px;
+    background: #6c63ff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: all 0.3s ease;
+}
+
+.switch-dot.right {
+    left: 26px;
+}
+
+/* === Badge Improvements === */
+.badge {
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    background-color: #00c9a7;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
